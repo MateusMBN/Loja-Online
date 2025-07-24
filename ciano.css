@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-image: radial-gradient(#8ce1f3, #163742);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 600px;
+  align-items: center;
+  z-index: 10;
+  gap: 10%;
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+header img {
+  width: 200px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+}
+
+nav a {
+  color: #f0faff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a6f0ff;
+}
+
+.produto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 180px;
+  padding-inline: 10%;
+  flex-wrap: wrap;
+}
+
+.produto-imagem img {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #9ae7ff;
+}
+
+.produto-detalhes {
+  max-width: 400px;
+}
+
+.produto-detalhes h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.caracteristicas {
+  margin-bottom: 20px;
+}
+
+.caracteristicas li {
+  margin-bottom: 10px;
+  color: #e2fcff;
+}
+
+.preco {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #a6f0ff;
+}
+
+.comprar {
+  background-color: #15738d;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comprar:hover {
+  background-color: #27b1d7;
+}
+
+footer.rodape-simples {
+  background-color: #19323b;
+  color: #d9f9ff;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 0.9em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.rodape-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rodape-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.rodape-links a {
+  color: #b2f2ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.rodape-links a:hover {
+  color: #8ce6ff;
+}
+
+.rodape-direitos {
+  font-size: 0.8em;
+  color: #82eaff;
+}
+

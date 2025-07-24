@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#3a2b22, #1a1a1a ); /* Fundo mais escuro */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 120px;
+    line-height: 1.6em;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+   
+}
+
+header img {
+    width: 180px;
+}
+
+/* Conteúdo Principal */
+main.conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-image: radial-gradient(#4b3a2e, #2f1f1a); /* Fundo mais escuro no conteúdo */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 167, 79, 0.208);
+    color: #f7f0d8;
+}
+
+main h1 {
+    font-size: 2.8em;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+main p,
+main li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Botão Voltar */
+.btn-voltar {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #dc6c31; /* Cor laranja do botão */
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #e07b42; /* Laranja mais escuro no hover */
+}
+
+/* Rodapé */
+footer.rodape-simples {
+    background-color: #3a2b22; /* Fundo escuro no rodapé */
+    color: #e8dac9;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
